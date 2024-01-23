@@ -1,0 +1,17 @@
+################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.user
+*.suo
+*.props
+*.lock.json
+/**/bin
+/**/obj
+.vs
+*.mdb
+*.htm
+/MyMD/MyMD.Uwa/AppPackages/MyMD.Uwa_1.0.0.0_Debug_Test
+/MyMD/TestResults
+*.idea/
+*.DS_Store

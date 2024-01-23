@@ -1,0 +1,17 @@
+﻿<Page x:Class="Uno5App.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:Uno5App"
+      Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+  <StackPanel
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center">
+    <TextBlock x:Name="NavigationStatusTextBlock"
+               Text="No event yet"/>
+    
+    <WebView2 Source="http://www.google.com"
+              Height="500"
+              Width="500"
+              x:Name="MyWebView" />
+  </StackPanel>
+</Page>
